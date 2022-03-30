@@ -5,3 +5,4 @@ ad cd ~ command to redirect user to the home directory 2-bring_me_home
 3-listfiles for printing long forma list
 4-listmorefiles for listing hidden files too
 5-listfilesdigitonly
+6-firstdirectory creates a directory named my_first_directory in the /tmp/ directory.
