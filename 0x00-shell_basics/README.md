@@ -8,3 +8,4 @@ ad cd ~ command to redirect user to the home directory 2-bring_me_home
 6-firstdirectory creates a directory named my_first_directory in the /tmp/ directory.
 7-movethatfile
  Bye bye Betty
+Delete the directory my_first_directory that is in the /tmp directory.
