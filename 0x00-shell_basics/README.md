@@ -9,3 +9,4 @@ ad cd ~ command to redirect user to the home directory 2-bring_me_home
 7-movethatfile
  Bye bye Betty
 Delete the directory my_first_directory that is in the /tmp directory.
+10 script that changes the working directory to the previous one.
