@@ -15,3 +15,11 @@ Delete the directory my_first_directory that is in the /tmp directory.
 13 a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory
 14 a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 16 101-clean_emacs
+ a command that lists all the files and directories of the current directory, separated by commas (,).
+
+Directory names should end with a slash (/)
+Files and directories starting with a dot (.) should be listed
+The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+Only digits and letters are used to sort; Digits should come first
+You can assume that all the files we will test with will have at least one letter or one digit
+The listing should end with a new line
