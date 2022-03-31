@@ -1,4 +1,2 @@
 #!/bin/bash
-groups
- echo #!/bin/bash
 chown betty hello
