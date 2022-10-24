@@ -10,9 +10,9 @@ CUSTOMHEADER='\n\tadd_header X-Served-By $hostname;\n'
 STRING="Hello World!"
 FOUR="Ceci n'est pas une page"
 
-apt-get -y update
-apt-get -y install nginx
-ufw allow 'Nginx HTTP'
+sudo apt-get -y update
+sudo apt-get -y install nginx
+sudo ufw allow 'Nginx HTTP'
 echo "$STRING" > /var/www/html/index.nginx-debian.html
 sed -i "37i\ $REDIRECT" "$FILE"
 
