@@ -1,6 +1,6 @@
 # What happens when you type google.com in your browser and press Enter
 
-![An image describing enter touch on a keyboard](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\11NuSjTdxAYYaYiLjeP3avg.jpeg)
+![An image describing enter touch on a keyboard](11NuSjTdxAYYaYiLjeP3avg.jpeg)
 
 Enter key on a keyboard
 
@@ -80,7 +80,7 @@ We are going to walk through 8 defined steps which are detailed as follow:
 
 # 1- URL Parsing
 
-![img](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\1oz1W26rGL77Hso_STfQEXg.png)
+![img](1oz1W26rGL77Hso_STfQEXg.png)
 
 URL parsing
 
@@ -90,7 +90,7 @@ URL parsing is a function of traffic management and load-balancing products that
 
 A DNS lookup, in a general sense, is the process by which a DNS record is returned from a DNS server. This is like looking up a phone number in a phone book — that is why it is referred to as a “lookup”. Interconnected computers, servers and smart phones need to know how to translate the email addresses and domain names people use into meaningful numerical addresses. A DNS lookup performs this function.
 
-![img](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\1yfKwsrIgreeB02WLsF0dwg.jpeg)
+![img](1yfKwsrIgreeB02WLsF0dwg.jpeg)
 
 DNS Lookup journey
 
@@ -109,7 +109,7 @@ So, what exactly happened after I hit the Enter key?
 
 # 3- TCP / IP
 
-![TCP/IP process](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\1AKwC9h1wKki1_dzdzOXLvA.gif)
+![TCP/IP process](1AKwC9h1wKki1_dzdzOXLvA.gif)
 
 TCP/IP process
 
@@ -135,7 +135,7 @@ TCP connections can detect out of order packets by using the sequence and acknow
 
 # 4- SSL
 
-![img](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\1Y4AzZOlwNgaOrbwSDHibeg.png)
+![img](1Y4AzZOlwNgaOrbwSDHibeg.png)
 
 SSL handleshacke
 
@@ -158,7 +158,7 @@ HTTPS requires a TLS certificate to be installed on your server. You can apply c
 
 HTTP is just a protocol, but when paired with TLS or transport layer security it becomes encrypted.
 
-![img](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\1AR83GZhw_6WMuGozCtXmHQ.jpeg)
+![img](1AR83GZhw_6WMuGozCtXmHQ.jpeg)
 
 HTTPS Stack
 
@@ -169,7 +169,7 @@ When your browser connects to an HTTPS server, the server will answer with its c
 
 If one of these conditions is not met, the user is informed about the problem.
 
-![img](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\1neEbP2ZXFVasPmSPFo_J2w.png)
+![img](1neEbP2ZXFVasPmSPFo_J2w.png)
 
 HTTPPS Handleshack
 
@@ -185,7 +185,7 @@ At this point the reader communication can proceed. The initial handshakes steps
 
 # 6- load Balancer
 
-![img](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\1s2lnov3kDTN3seSpB8BWmQ.png)
+![img](1s2lnov3kDTN3seSpB8BWmQ.png)
 
 Load balancing
 
@@ -193,7 +193,7 @@ As an organization meets demand for its applications, the load balancer plays th
 
 A load balancer is an intermediary responsible for handling this traffic-splitting work. A load balancer is a software that can be configured either on the same server as that hosting web content or on a server all its own. One such common and free load balancer software is [HAProxy](https://www.haproxy.org/).
 
-![img](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\1GCvWoR1uAoF9dEPtf9cWnA.png)
+![img](1GCvWoR1uAoF9dEPtf9cWnA.png)
 
 Haproxy
 
@@ -201,7 +201,7 @@ HTTP request traffic is split up by a program such as HAProxy according to a loa
 
 # 7- Firewall
 
-![img](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\1exUmkkFw6shiin4xJw0-hw.png)
+![img](1exUmkkFw6shiin4xJw0-hw.png)
 
 Firewall
 
@@ -215,7 +215,7 @@ A hosting server is generic term for a type of server that hosts or houses websi
 
 A hosting server is also known as a Web hosting server.
 
-![Lamp stack](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\1LJOL10wI320kST6SBI0njQ.png)
+![Lamp stack](1LJOL10wI320kST6SBI0njQ.png)
 
 Lamp stack
 
@@ -239,7 +239,7 @@ In the response header, the host server states information about the delivered p
 
 Finally, in the response message body, the host server delivers the actual, entire HTML code itself. This is what the browser has been looking for since the start! Now it shows off, utilizing its HTML and CSS engines to parse the code, break it down into its Document Object Model, and render the page. Any JavaScript scripts written in the file are run. When its all said and done, Firefox displays a beauty, a joy, a realization of our dream — the google website home page.
 
-![img](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\1GNMwynSjDu0eO83qjDX3jA.png)
+![img](1GNMwynSjDu0eO83qjDX3jA.png)
 
 Google homepage
 
@@ -247,7 +247,7 @@ Google homepage
 
 To summarize the whole process , the following diagram has been done for you:
 
-![Page rendering Process explained](C:\Users\JOELNYAGAMURIITHI\Documents\PROJECT FILES\Typora assets\150H2mSlUaGK9B6uZS072oA.png)
+![Page rendering Process explained](150H2mSlUaGK9B6uZS072oA.png)
 
 Page rendering process
 
