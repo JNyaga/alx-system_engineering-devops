@@ -1,6 +1,6 @@
 # What happens when you type google.com in your browser and press Enter
 
-![An image describing enter touch on a keyboard](11NuSjTdxAYYaYiLjeP3avg.jpeg)
+![image](https://user-images.githubusercontent.com/13935702/200189559-40e9bbc3-8fec-4a65-b01f-01cbffb44fe7.png)
 
 Enter key on a keyboard
 
@@ -20,7 +20,7 @@ In [computing](https://en.wikipedia.org/wiki/Computing), a **server** is a piece
 
 - **Client**
 
-In [computing](https://en.wikipedia.org/wiki/Computing), a **client** is a piece of [computer hardware](https://en.wikipedia.org/wiki/Computer_hardware) or [software](https://en.wikipedia.org/wiki/Software) that accesses a service made available by a [server](https://en.wikipedia.org/wiki/Server_(computing)) as part of the [client–server model](https://en.wikipedia.org/wiki/Client–server_model) of [computer networks](https://en.wikipedia.org/wiki/Computer_network).
+In [computing](https://en.wikipedia.org/wiki/Computing), a **client** is a piece of [computer hardware](https://en.wikipedia.org/wiki/Computer_hardware) or [software](https://en.wikipedia.org/wiki/Software) that accesses a service made available by a [server](https://en.wikipedia.org/wiki/Server_(computing)) as part of the [client–server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model) of [computer networks](https://en.wikipedia.org/wiki/Computer_network).
 
 - **Network Protocol**
 
@@ -56,7 +56,7 @@ In [computing](https://en.wikipedia.org/wiki/Computing), **load balancing** refe
 
 # **Scenario**
 
-> Done with key concepts ? It is time to follow step-by-step what happens from the moment we type *enter to the moment we see the response of google.*
+> Done with key concepts ? It is time to follow step-by-step what happens from the moment we type _enter to the moment we see the response of google._
 
 We are going to walk through 8 defined steps which are detailed as follow:
 
@@ -80,7 +80,7 @@ We are going to walk through 8 defined steps which are detailed as follow:
 
 # 1- URL Parsing
 
-![img](1oz1W26rGL77Hso_STfQEXg.png)
+![](https://miro.medium.com/max/638/1*oz1W26rGL77Hso_STfQEXg.png)
 
 URL parsing
 
@@ -90,26 +90,26 @@ URL parsing is a function of traffic management and load-balancing products that
 
 A DNS lookup, in a general sense, is the process by which a DNS record is returned from a DNS server. This is like looking up a phone number in a phone book — that is why it is referred to as a “lookup”. Interconnected computers, servers and smart phones need to know how to translate the email addresses and domain names people use into meaningful numerical addresses. A DNS lookup performs this function.
 
-![img](1yfKwsrIgreeB02WLsF0dwg.jpeg)
+![](https://miro.medium.com/max/700/1*yfKwsrIgreeB02WLsF0dwg.jpeg)
 
 DNS Lookup journey
 
 So, what exactly happened after I hit the Enter key?
 
-1. My **browser** looks at its DNS cache to see if it’d been there before and knew the IP address mapped to it. Let’s say it didn’t.
-2. My **computer** also looks into its local DNS cache to see if it knows an IP address mapped to that domain. Nope.
-3. My home **router** comes in to try its local DNS cache. Still no luck.
-4. We go out to ask my **ISP’s DNS server** if that domain is in its cache. Sorry it is not there, but that recursive DNS server can help us resolve it.
-5. The resolver goes to ask the **root name servers** about the domain name, let’s say it is *example.com*
-6. Root name servers know all the **TLD (top level domain) name servers**. Since we came with a *.com* domain, it forwards our query to one TLD name server that handles *.com* domains.
-7. The .com TLD name server knows the **authoritative name server** who stores DNS record for the domain *example.com* so it forwards the query ahead.
-8. The authoritative name server respond with an *A record* (address record which is an IP address) mapped to the domain name.
+1. My**browser** looks at its DNS cache to see if it’d been there before and knew the IP address mapped to it. Let’s say it didn’t.
+2. My**computer** also looks into its local DNS cache to see if it knows an IP address mapped to that domain. Nope.
+3. My home**router** comes in to try its local DNS cache. Still no luck.
+4. We go out to ask my**ISP’s DNS server** if that domain is in its cache. Sorry it is not there, but that recursive DNS server can help us resolve it.
+5. The resolver goes to ask the**root name servers** about the domain name, let’s say it is_example.com_
+6. Root name servers know all the**TLD (top level domain) name servers**. Since we came with a_.com_ domain, it forwards our query to one TLD name server that handles_.com_ domains.
+7. The .com TLD name server knows the**authoritative name server** who stores DNS record for the domain_example.com_ so it forwards the query ahead.
+8. The authoritative name server respond with an_A record_ (address record which is an IP address) mapped to the domain name.
 9. The IP address was then passed all the way back to our browser, each one in between who has a DNS cache will cache it on the way so next time when we or someone else asks about example.com, the answer comes faster.
-10. Browser opens a TCP/IP connection to the IP address, which is the address of the server hosting *example.com*, then sends an HTTP request. If the server is up and running, it sends back HTTP responses to our browser.
+10. Browser opens a TCP/IP connection to the IP address, which is the address of the server hosting_example.com_, then sends an HTTP request. If the server is up and running, it sends back HTTP responses to our browser.
 
 # 3- TCP / IP
 
-![TCP/IP process](1AKwC9h1wKki1_dzdzOXLvA.gif)
+![TCP/IP process](https://miro.medium.com/max/434/1*AKwC9h1wKki1_dzdzOXLvA.gif)
 
 TCP/IP process
 
@@ -135,7 +135,7 @@ TCP connections can detect out of order packets by using the sequence and acknow
 
 # 4- SSL
 
-![img](1Y4AzZOlwNgaOrbwSDHibeg.png)
+![](https://miro.medium.com/max/700/1*Y4AzZOlwNgaOrbwSDHibeg.png)
 
 SSL handleshacke
 
@@ -158,7 +158,7 @@ HTTPS requires a TLS certificate to be installed on your server. You can apply c
 
 HTTP is just a protocol, but when paired with TLS or transport layer security it becomes encrypted.
 
-![img](1AR83GZhw_6WMuGozCtXmHQ.jpeg)
+![](https://miro.medium.com/max/700/1*AR83GZhw_6WMuGozCtXmHQ.jpeg)
 
 HTTPS Stack
 
@@ -169,7 +169,7 @@ When your browser connects to an HTTPS server, the server will answer with its c
 
 If one of these conditions is not met, the user is informed about the problem.
 
-![img](1neEbP2ZXFVasPmSPFo_J2w.png)
+![](https://miro.medium.com/max/700/1*neEbP2ZXFVasPmSPFo_J2w.png)
 
 HTTPPS Handleshack
 
@@ -185,15 +185,15 @@ At this point the reader communication can proceed. The initial handshakes steps
 
 # 6- load Balancer
 
-![img](1s2lnov3kDTN3seSpB8BWmQ.png)
+![](https://miro.medium.com/max/560/1*s2lnov3kDTN3seSpB8BWmQ.png)
 
 Load balancing
 
-As an organization meets demand for its applications, the load balancer plays the role of the traffic cop in the network, deciding which servers can handle that traffic. This [traffic management](https://dzone.com/articles/load-balancers-and-high-volume-traffic-management-1#:~:text=Load balancers%2C also referred to,performance of websites and applications.&text=Load balancers are responsible for the traffic distribution.) is intended to deliver a good user experience. Load balancers [monitor the health](https://blogs.tensult.com/2020/01/29/how-to-configure-verify-and-update-health-checks-of-classic-load-balancer/) of web servers and backend servers to ensure they can handle requests. If necessary, it removes unhealthy servers from the pool until they are restored. Some even trigger the creation of new virtualized application servers to cope with increased demand and maintain response times. The most effective load balancers operate with workloads across multiple environments (on-premises and cloud) and diverse infrastructures (bare metal servers, VMs, and containers).
+As an organization meets demand for its applications, the load balancer plays the role of the traffic cop in the network, deciding which servers can handle that traffic. This [traffic management](https://dzone.com/articles/load-balancers-and-high-volume-traffic-management-1#:~:text=Load%20balancers%2C%20also%20referred%20to,performance%20of%20websites%20and%20applications.&text=Load%20balancers%20are%20responsible%20for%20the%20traffic%20distribution.) is intended to deliver a good user experience. Load balancers [monitor the health](https://blogs.tensult.com/2020/01/29/how-to-configure-verify-and-update-health-checks-of-classic-load-balancer/) of web servers and backend servers to ensure they can handle requests. If necessary, it removes unhealthy servers from the pool until they are restored. Some even trigger the creation of new virtualized application servers to cope with increased demand and maintain response times. The most effective load balancers operate with workloads across multiple environments (on-premises and cloud) and diverse infrastructures (bare metal servers, VMs, and containers).
 
 A load balancer is an intermediary responsible for handling this traffic-splitting work. A load balancer is a software that can be configured either on the same server as that hosting web content or on a server all its own. One such common and free load balancer software is [HAProxy](https://www.haproxy.org/).
 
-![img](1GCvWoR1uAoF9dEPtf9cWnA.png)
+![](https://miro.medium.com/max/700/1*GCvWoR1uAoF9dEPtf9cWnA.png)
 
 Haproxy
 
@@ -201,7 +201,7 @@ HTTP request traffic is split up by a program such as HAProxy according to a loa
 
 # 7- Firewall
 
-![img](1exUmkkFw6shiin4xJw0-hw.png)
+![](https://miro.medium.com/max/318/1*exUmkkFw6shiin4xJw0-hw.png)
 
 Firewall
 
@@ -215,7 +215,7 @@ A hosting server is generic term for a type of server that hosts or houses websi
 
 A hosting server is also known as a Web hosting server.
 
-![Lamp stack](1LJOL10wI320kST6SBI0njQ.png)
+![Lamp stack](https://miro.medium.com/max/259/1*LJOL10wI320kST6SBI0njQ.png)
 
 Lamp stack
 
@@ -228,7 +228,7 @@ Delivery of a web page works as follows:
 
 - A GET request is received by the web server. The web server pulls up the file configured at the given location (in our example, the HTML file configured at the root (`/`) of the machine).
 - If the file contains dynamic content, the application server is run (ie. the corresponding Python scripts are run). The result of these scripts is inserted into the web page.
-- If the dynamic content involves stored data, the Python scripts queries from the database server (probably through Python libraries such as [MySQLdb](https://mysqlclient.readthedocs.io/#) or [SQLAlchemy](https://www.sqlalchemy.org/)).
+- If the dynamic content involves stored data, the Python scripts queries from the database server (probably through Python libraries such as[MySQLdb](https://mysqlclient.readthedocs.io/#) or[SQLAlchemy](https://www.sqlalchemy.org/)).
 - The web server delivers the web page.
 
 # 9- Page rendering
@@ -239,7 +239,7 @@ In the response header, the host server states information about the delivered p
 
 Finally, in the response message body, the host server delivers the actual, entire HTML code itself. This is what the browser has been looking for since the start! Now it shows off, utilizing its HTML and CSS engines to parse the code, break it down into its Document Object Model, and render the page. Any JavaScript scripts written in the file are run. When its all said and done, Firefox displays a beauty, a joy, a realization of our dream — the google website home page.
 
-![img](1GNMwynSjDu0eO83qjDX3jA.png)
+![](https://miro.medium.com/max/700/1*GNMwynSjDu0eO83qjDX3jA.png)
 
 Google homepage
 
@@ -247,7 +247,7 @@ Google homepage
 
 To summarize the whole process , the following diagram has been done for you:
 
-![Page rendering Process explained](150H2mSlUaGK9B6uZS072oA.png)
+![Page rendering Process explained](https://miro.medium.com/max/700/1*50H2mSlUaGK9B6uZS072oA.png)
 
 Page rendering process
 
@@ -271,4 +271,4 @@ Page rendering process
 
 [Transmission Control Protocol (TCP) (article) | Khan AcademyLearn about the Transmission Control Protocol (TCP), a data transport protocol that works on top of the Internet…www.khanacademy.org](https://www.khanacademy.org/computing/computers-and-internet/xcae6f4a7ff015e7d:the-internet/xcae6f4a7ff015e7d:transporting-packets/a/transmission-control-protocol--tcp)
 
-[What is an SSL certificate - Definition and ExplanationAn SSL certificate is a digital certificate that authenticates a website's identity and enables an encrypted…www.kaspersky.com](https://www.kaspersky.com/resource-center/definitions/what-is-a-ssl-certificate)
+[What is an SSL certificate - Definition and ExplanationAn SSL certificate is a digital certificate that authenticates a website&#39;s identity and enables an encrypted…www.kaspersky.com](https://www.kaspersky.com/resource-center/definitions/what-is-a-ssl-certificate)
